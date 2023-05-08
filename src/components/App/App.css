@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(auto, 1fr);
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    gap: 10px;
+}
+
+.link{
+    display: block;
+    width: 200px;
+    height: 80px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.link h2{
+    font-size: 15px;
+}
+
+.link p{
+    font-size: 15px;
+}
